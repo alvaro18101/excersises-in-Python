@@ -9,3 +9,6 @@ Multiply two numbers without the multiplication symbol
 
 ### Problem 2
 Obtain the maximum number by iterating only once
+
+### Problem 3
+Iterating one time, delete False and 0 in an array
