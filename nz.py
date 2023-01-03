@@ -19,4 +19,12 @@ def maximum(array):
 print(maximum([1,4,3,2,3,-1]))
 
 
+# PROBLEMA 3
+def clean(array):
+    no_zero = list(filter(lambda x: x != 0, array))
+    return no_zero
 
+print(clean([1,0,False,'papaya',False,3.14159]))
+
+
+# PROBLEMA 4
