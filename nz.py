@@ -33,10 +33,35 @@ def flatten(array):
     for i in range(len(array)):
         if type(array[i]) != list:
             array2.append(array[i])
-            print('append',array[i])
         else:
             array2.extend(array[i])
-            print('extend',array[i])
     return array2
 
-print(flatten([1,2,[0],[['hola','adios'],True]]))
+print(flatten([1,2,[0],[['hola','adios'],True], [1,[]]]))
+
+
+# PROBLEMA 5
+def count(string):
+    string = string.lower().split()
+    array, amount, repeat = [], [], []
+    for i in string:
+        if (i in array) == False:
+            array.append(i)
+            amount.append(1)
+        else:
+            amount[array.index(i)] += 1
+    for i in range(len(array)):
+        repeat.append([array[i],amount[i]])
+    return repeat
+
+print(count('Hola  soy Alvaro hola'))
+
+# PROBLEMA 6
+def palindrome(string):
+    string = string.lower().replace(' ','')
+    return True if string == string[::-1] else False
+
+print(palindrome('Anita lava la tina'))
+
+
+
