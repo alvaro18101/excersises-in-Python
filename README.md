@@ -14,5 +14,6 @@ Obtain the maximum number by iterating only once
 Iterating one time, delete False and 0 in an array
 
 ### Problem 4
-Flatten the array in one level. Ex: [[1,2],[3,4]] --> [1,2,3,4]\\
+Flatten the array in one level. Ex: [[1,2],[3,4]] --> [1,2,3,4]
+
 **Remark:** If we take an element and not an array we do nothing. Ex [1,2,[3,4]] --> [1,2,3,4]
