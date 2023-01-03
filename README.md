@@ -17,3 +17,9 @@ Iterating one time, delete False and 0 in an array
 Flatten the array in one level. Ex: [[1,2],[3,4]] --> [1,2,3,4]
 
 **Remark:** If we take an element and not an array we do nothing. Ex: [1,2,[3,4]] --> [1,2,3,4]
+
+### Problem 5
+Count the number of times a word is repeated
+
+### Problem 6
+Check if a word is a palindrome
