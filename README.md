@@ -6,3 +6,6 @@ Solutions in Python of exercises raised on the Hola Mundo Youtube channel: https
 
 ### Problem 1
 Multiply two numbers without the multiplication symbol
+
+### Problem 2
+Obtain the maximum number by iterating only once
