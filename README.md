@@ -22,4 +22,4 @@ Flatten the array in one level. Ex: [[1,2],[3,4]] --> [1,2,3,4]
 Count the number of times a word is repeated
 
 ### Problem 6
-Check if a word is a palindrome
+Check if a string is a palindrome
