@@ -56,6 +56,7 @@ def count(string):
 
 print(count('Hola  soy Alvaro hola'))
 
+
 # PROBLEMA 6
 def palindrome(string):
     string = string.lower().replace(' ','')
