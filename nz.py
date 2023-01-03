@@ -28,3 +28,15 @@ print(clean([1,0,False,'papaya',False,3.14159]))
 
 
 # PROBLEMA 4
+def flatten(array):
+    array2 = []
+    for i in range(len(array)):
+        if type(array[i]) != list:
+            array2.append(array[i])
+            print('append',array[i])
+        else:
+            array2.extend(array[i])
+            print('extend',array[i])
+    return array2
+
+print(flatten([1,2,[0],[['hola','adios'],True]]))
