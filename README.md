@@ -43,4 +43,5 @@ Check if two words are anagrams
 Returns bills that need to be given to arrive at an amount, like a ATM
 
 atm.py: Firts solution using **while**
+
 atm2.py: Second solution using %
