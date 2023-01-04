@@ -31,4 +31,5 @@ Solution in Python of the exercise proposed on the BettaTech Youtube channel: ht
 Given a string consisting of (), [], {}, write a program that indicates whether the corresponding pairs are corrects.
 
 Input: [()]{}{[()()]()} (Correct)
+
 Input: [(]) (Incorrect)
