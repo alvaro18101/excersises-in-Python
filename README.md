@@ -39,5 +39,8 @@ Input: [(]) (Incorrect)
 Check if two words are anagrams
 
 
-## atm.py
+## atm.py | atm2.py
 Returns bills that need to be given to arrive at an amount, like a ATM
+
+atm.py: Firts solution using **while**
+atm2.py: Second solution using %
