@@ -2,7 +2,7 @@
 Simple problems solutions in Python
 
 ## nz.py
-Solutions in Python of exercises raised on the Hola Mundo Youtube channel: https://www.youtube.com/watch?v=MXmQM_Uehtk
+Solutions in Python of exercises proposed on the Hola Mundo Youtube channel: https://www.youtube.com/watch?v=MXmQM_Uehtk
 
 ### Problem 1
 Multiply two numbers without the multiplication symbol
@@ -23,3 +23,12 @@ Count the number of times a word is repeated
 
 ### Problem 6
 Check if a string is a palindrome
+
+
+## brackets.py
+Solution in Python of the exercise proposed on the BettaTech Youtube channel: https://www.youtube.com/watch?v=jIlB1D8e4rk
+
+Given a string consisting of (), [], {}, write a program that indicates whether the corresponding pairs are corrects.
+
+Input: [()]{}{[()()]()} (Correct)
+Input: [(]) (Incorrect)
