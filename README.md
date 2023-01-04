@@ -33,3 +33,7 @@ Given a string consisting of (), [], {}, write a program that indicates whether 
 Input: [()]{}{[()()]()} (Correct)
 
 Input: [(]) (Incorrect)
+
+
+## anagram.py
+Check if two words are anagrams
